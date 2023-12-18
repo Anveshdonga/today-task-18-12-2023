@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Create an account</legend>
+    <form method="post"  >
+        <label for="Fname">Firstname:</label>
+        <input type="text" id="Fname" name="Fname" required ><br><br>
+        <label for="Fname">Secondname:</label>
+        <input type="text" id="Sname" name="Sname" required><br><br>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="mail" required><br><br>
+        <label for="phonenumber">Phonenumber</label>
+        <input type="tel" id="phonenumber" name="phonenumber" pattern="[0-9]{10}" required><br><br>
+        <label for="pswd">Password:</label>
+        <input type="password" id="pswd" name="pswd" required><br><br>
+        <label for="pswd">Conformpassword:</label>
+        <input type="password" id="pswd" name="pswd" required><br><br>
+        <input type="submit" formaction="./homepage.html" >
+        <button type="reset">reset</button>
+    </form><br>
+    <a  href="./index.html"><button>Already have an account</button></a>
+    </fieldset>
+
+
+</body>
+</html>
